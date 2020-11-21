@@ -57,7 +57,17 @@ def listfiles( extension='.jpg', folder='F:\\'):
     return(out)
 
 def copyfiletype(source,dest,type):
-
+"""
+    ***************************
+    Megadott típusú fájlokat másol egy célkönyvtárba, rekurzívan, a célkönyvtár alkönyvtárait létrehozza
+    ***************************
+   
+    :param source:          ez a forrás könyvtár
+    :param dest:            ebben a könyvtárba fog másolni
+    :param type:            a fájl típusa, kiterjesztése
+    
+    :return: -
+    """
     filelista=listfiles(extension=type,folder=source)
     for i in filelista:
         dir_name = i[0]
