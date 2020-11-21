@@ -15,7 +15,7 @@ def searchfiles(outFileName, extension='.jpg', folder='F:\\', deltaTime=3600 * 2
     :param deltaTime:       ilyen korú, vagy fiatalabb fájlokat keresi [sec]-ben kell megadni!!
     :return: ---
     """
-    "Create a txt file with all the file of a type"
+    
     currentDateTimeStamp = dt.datetime.now().timestamp()
     # print (currentDateTimeStamp)
     with open(outFileName, "w", encoding="utf-8") as filewrite:
