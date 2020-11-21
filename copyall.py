@@ -57,7 +57,7 @@ def listfiles( extension='.jpg', folder='F:\\'):
     return(out)
 
 def copyfiletype(source,dest,type):
-"""
+    """
     ***************************
     Megadott típusú fájlokat másol egy célkönyvtárba, rekurzívan, a célkönyvtár alkönyvtárait létrehozza
     ***************************
